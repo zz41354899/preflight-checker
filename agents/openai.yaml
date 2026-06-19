@@ -1,0 +1,7 @@
+interface:
+  display_name: "Preflight Checker"
+  short_description: "Agent skill for final preflight reviews."
+  default_prompt: "Use $preflight-checker to review my situation, draft, or deliverable with Describe → Inspect → Compare, then give me priorities and a final Preflight Checklist."
+
+policy:
+  allow_implicit_invocation: true
