@@ -62,15 +62,24 @@ The first screen demonstrates the install command and the `Describe -> Inspect -
 
 ## Validation
 
-Validate the skill:
+Validate that the repository exposes the skill:
 
 ```bash
-python3 /path/to/quick_validate.py .
+npx skills add . --list
 ```
 
 Validate the website:
 
 ```bash
+npm install
 npm run lint
 npm run build
+```
+
+Optional install smoke test:
+
+```bash
+tmpdir="$(mktemp -d)"
+cd "$tmpdir"
+npx skills add zz41354899/preflight-checker -y --copy
 ```
