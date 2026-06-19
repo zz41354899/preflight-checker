@@ -1,5 +1,6 @@
 # Preflight Sandbox
 
+**Live Demo**: [https://preflight-sandbox.zz41354899.workers.dev/](https://preflight-sandbox.zz41354899.workers.dev/)
 這個資料夾是 Preflight 的網站沙盒工作區。正式可安裝的 skill 放在 `preflight-checker/` 子資料夾，不放在網站根目錄。
 
 ## Prerequisites
