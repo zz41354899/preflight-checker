@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #11100f;
+  --foreground: #faf9f5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family:
+    var(--font-geist-sans), "Noto Sans TC", "PingFang TC", "Microsoft JhengHei",
+    Arial, Helvetica, sans-serif;
+  line-height: 1.55;
+  margin: 0;
+  min-width: 0;
+}
+
+.font-serif {
+  font-family:
+    "Iowan Old Style", "Cormorant Garamond", "EB Garamond", Georgia,
+    "Times New Roman", "Noto Serif TC", serif;
+}
+
+.font-mono {
+  font-family:
+    var(--font-geist-mono), "JetBrains Mono", "SFMono-Regular", Consolas,
+    "Liberation Mono", ui-monospace, monospace;
+}
+
+button,
+a,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #bce4dc;
+  color: #132a34;
+}
