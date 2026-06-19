@@ -63,7 +63,7 @@ const referenceTypes = [
   "work-handoff",
   "design-check",
   "copy-check",
-  "instructor-content",
+  "confirmation-email",
   "event-planning",
   "message-email",
 ];

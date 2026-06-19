@@ -1,6 +1,6 @@
 ---
 name: preflight-checker
-description: "Run a Preflight Checker review for everyday life, work handoffs, design assets, copy, instructor or partner introductions, events, courses, workshops, plans, email, LINE, DM, Slack, and external messages. Use when the user asks to inspect, compare, preflight, check for missing details, reduce risk, review before publishing/sending/handing off, or wants a final actionable checklist."
+description: "Run a Preflight Checker review for everyday life, work handoffs, design assets, copy, confirmation emails, events, courses, workshops, plans, email, LINE, DM, Slack, and external messages. Use when the user asks to inspect, compare, preflight, check for missing details, reduce risk, review before publishing/sending/handing off, or wants a final actionable checklist."
 ---
 
 # Preflight Checker
@@ -32,18 +32,18 @@ Select the primary reference with this table:
 
 | Primary reference | Use when the artifact is |
 |---|---|
-| `references/message-email.md` | Email, LINE, DM, Slack, outreach, reply, reminder, follow-up, or any sendable message. Use this even when the message is about an event, instructor, or work topic. |
+| `references/confirmation-email.md` | Confirmation email, pre-event notice, registration confirmation, attendee reminder, logistics confirmation, or participant-facing final notice. |
+| `references/message-email.md` | Email, LINE, DM, Slack, outreach, reply, reminder, follow-up, or any sendable message that is not primarily a confirmation notice. Use this even when the message is about an event or work topic. |
 | `references/event-planning.md` | Event, course, workshop, program, proposal, rundown, registration information, or planning document that is not primarily a message. |
 | `references/work-handoff.md` | Work deliverable, task handoff, status update, QA note, spec, file package, or collaboration note. |
 | `references/design-check.md` | Design draft, banner, cover, visual asset, thumbnail, poster, landing visual, or design brief. |
 | `references/copy-check.md` | Public copy, post, website text, activity announcement, product blurb, landing page section, or copy draft that is not primarily a message. |
-| `references/instructor-content.md` | Instructor, guest, speaker, course teacher, partner, collaborator, or organization introduction. |
 | `references/daily-life.md` | Everyday life, leaving home, bedtime, errands, doctor visit logistics, documents, travel, returning home, or daily wrap-up. |
 
 Secondary reference examples:
 
 - Message about an event: primary `message-email.md`, secondary `event-planning.md` only for missing event logistics.
-- Speaker invitation bio: primary `instructor-content.md`, secondary `copy-check.md` only for public-facing copy polish.
+- Event confirmation email: primary `confirmation-email.md`, secondary `event-planning.md` only for missing event logistics.
 - Banner for an event: primary `design-check.md`, secondary `event-planning.md` only for missing event facts.
 
 ## Describe

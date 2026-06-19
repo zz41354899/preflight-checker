@@ -1,6 +1,6 @@
 # preflight-checker
 
-`preflight-checker` is an installable agent skill for final preflight reviews. It checks everyday actions, work handoffs, design assets, copy, instructor introductions, event plans, and outbound messages before they are sent, published, handed off, or acted on.
+`preflight-checker` is an installable agent skill for final preflight reviews. It checks everyday actions, work handoffs, design assets, copy, confirmation emails, event plans, and outbound messages before they are sent, published, handed off, or acted on.
 
 This repository also includes a small website sandbox that demonstrates the skill flow and install command.
 
@@ -44,7 +44,7 @@ The skill follows:
 - `work-handoff`: task handoff, status, QA, specs, and collaboration notes
 - `design-check`: banners, covers, visual assets, thumbnails, and design drafts
 - `copy-check`: posts, website text, event announcements, and public-facing copy
-- `instructor-content`: instructors, guests, speakers, partners, and collaborators
+- `confirmation-email`: confirmation emails, pre-event notices, registration confirmations, and attendee reminders
 - `event-planning`: courses, events, workshops, programs, and planning documents
 - `message-email`: Email, LINE, DM, Slack, outreach, replies, and reminders
 

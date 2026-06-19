@@ -20,7 +20,7 @@ Use for design drafts, banners, covers, thumbnails, posters, landing visuals, ca
 - important text near crop edge
 - image looks generic and does not show the real subject
 - visual style does not match the audience or offer
-- date, speaker name, logo, or title inconsistent with copy
+- date, featured name, logo, or title inconsistent with copy
 
 ## Output Notes
 
